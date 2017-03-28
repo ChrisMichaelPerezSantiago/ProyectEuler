@@ -15,10 +15,7 @@
 	@Date   3/26/2017
 */
 
-
 package main
-
-
 import "fmt"
 
 
@@ -37,10 +34,8 @@ func main(){
 }
 
 func finonacci(value int) int {
-   a := 1
-   b := 1
-   c := 0
-   
+   a , b , c := 1 , 1 , 0
+  
    for i:=2;i<=value;i++ {
       a = b
       b = c
@@ -48,7 +43,3 @@ func finonacci(value int) int {
    }
    return c
 }
-
-
-
-
