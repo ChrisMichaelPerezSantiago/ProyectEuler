@@ -22,7 +22,6 @@ import(
    "fmt"
 )
 
-
 func main(){
    MAX := 100
    fmt.Println(SumSquareDifference(MAX))
