@@ -1,5 +1,3 @@
-
-
 /*
 	Multiples of 3 and 5
 	Problem 1
@@ -12,12 +10,9 @@
 */
 
 package main
-
-
 import(
    "fmt"
 )
-
 
 func main(){
    MAX := 1000
