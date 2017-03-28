@@ -1,4 +1,3 @@
-
 /*
 	Even Fibonacci numbers
 	Problem 2
