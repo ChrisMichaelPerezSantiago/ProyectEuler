@@ -51,7 +51,7 @@ func GreatestProduct(digit string) int{
       actualProduct = 1
       
       for j:=i;j<i+13;j++{
-	 value , _ := strconv.Atoi(string(digit[j]))
+	 value , _ := strconv.Atoi(string(digit[j])) //(int , error ) ==> (value , _ ) ==> ( _ ) Ignoring the error.
 	 actualProduct *= value
       }
       if actualProduct > lastProduct { lastProduct = actualProduct }
