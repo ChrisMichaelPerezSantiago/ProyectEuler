@@ -1,4 +1,3 @@
-
 /*
 	Largest palindrome product
 	Problem 4
@@ -12,7 +11,6 @@
 */
 
 package main
-
 import (
    "fmt"
    "strconv"
