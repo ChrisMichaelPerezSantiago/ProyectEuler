@@ -19,7 +19,6 @@ func main(){
    fmt.Println(isPrime(MAX))
 }
 
-
 func isPrime(MAX int) [] int{
    array := make([]int,MAX,2000050)
    sum := 0
