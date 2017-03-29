@@ -16,10 +16,10 @@ import(
 
 func main(){
    MAX := 2000000
-   fmt.Println(isPrime(MAX))
+   fmt.Println(SumPrimes(MAX))
 }
 
-func isPrime(MAX int) [] int{
+func SumPrimes(MAX int) [] int{
    array := make([]int,MAX,2000050)
    sum := 0
    
