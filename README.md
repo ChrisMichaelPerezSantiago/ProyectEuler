@@ -1,4 +1,4 @@
-# ProyectEuler
+# ProyectEuler-Go
 
 **Author**
 -----------------
